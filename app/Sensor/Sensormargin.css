@@ -39,6 +39,31 @@ body {
     color: #ffffff;
 }
 
+.container {
+  border-radius: 5px;
+  background-color: #696969;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .block {
   display: block;
   margin: auto;
