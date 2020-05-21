@@ -95,14 +95,69 @@ body{
   bottom: 2%;
   padding-top: 20%;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .ikon2{
-  width: 10%;
+  width: 20%;
 }
 
+/* pakketyper-fastlane */
+
+.pakketyper{
+  padding-top: 10%;
+  margin-right: 5%;
+  margin-left: 2%;
+  display: grid;
+  justify-content: center;
+  grid-gap: 15%;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: 110px 110px 110px;
+  align-items: stretch;
+}
+
+.pakketyper > div{
+  margin-top: 15px;
+  color: white;
+  font-family: titilliumWeb;
+  letter-spacing: 1px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pakketype-boks{
+  width: 100px;
+  height: 20px;
+  background: #303134;
+  border-radius: 3px;
+}
+
+.form-boks{
+  width: 150px;
+  height: 20px;
+  background: #C3C4C5;
+  border-radius: 3px;
+}
+
+.flexbox-pakketyper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  row-gap: 8%
+}
+
+.text{
+  text-align: left  !important;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 /* Skifttyper */
 
 @font-face {
