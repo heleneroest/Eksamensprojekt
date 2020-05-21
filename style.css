@@ -9,7 +9,7 @@ body{
   font-family: titilliumWeb;
   font-size: 15px;
   line-height: 1.5;
-  background-color: rgb(76, 77, 82);
+  background-color: #4C4D52;
   color: white;
 }
 
@@ -91,6 +91,8 @@ body{
 }
 
 .trin{
+  position: fixed;
+  bottom: 2%;
   padding-top: 20%;
   display: flex;
   justify-content: space-around;
@@ -113,4 +115,120 @@ h1{
   letter-spacing: 3px;
   color: white;
   font-size: 20px;
+  text-align: center;
 }
+
+/* STYLEGUIDE */
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+hr{
+  border: 2px solid white;
+  margin-bottom: 0px;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar{
+  flex: 2;
+}
+
+.content{
+  flex: 7;
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background-color: rgb(48, 49, 52);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-family: "CenturyGothic", sans-serif;
+  min-width: 180px;
+}
+
+.navbar li a{
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar li a.active {
+  background-color: rgb(224, 98, 53);
+  color: white;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+@media screen and (max-width: 600px){
+  .navbar{
+    flex: 4;
+  }
+
+  .content{
+    flex: 6;
+  }
+
+  .navbar ul{
+      min-width: 120px;
+  }
+}
+
+/* STYLEGUIDE (FARVER) */
+.flex-container2{
+  display: flex;
+  flex-direction: column;
+}
+
+.orange{
+  width: 70px;
+  height: 70px;
+  background: #E06538;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.hvid{
+  width: 70px;
+  height: 70px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.sort{
+  width: 70px;
+  height: 70px;
+  background: #000000;
+  border-radius: 10px;
+}
+
+.lysgraa{
+  width: 70px;
+  height: 70px;
+  background: #4C4D52;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.moerkgraa{
+  width: 70px;
+  height: 70px;
+  background: #303134;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* HELENE SLUT */
