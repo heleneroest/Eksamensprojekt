@@ -28,6 +28,17 @@ body {
     margin: 6px 0;
 }
 
+.sensor h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: #EC5D1F;
+}
+
+.sensor h3{
+    padding-left: 20px;
+    color: #ffffff;
+}
+
 .block {
   display: block;
   margin: auto;
