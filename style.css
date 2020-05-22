@@ -64,7 +64,7 @@ body{
 
 .item{
   background-color: rgb(48, 49, 52);
-  padding: 5%; /* hvorfor er der kun padding på 3 af dem? */
+  padding: 5%; 
   margin-top: 15px;
   text-align: center;
   color: white;
@@ -73,6 +73,7 @@ body{
   font-size: 11px;
   display: flex;
   align-items: center;
+  border-radius: 5px;
 }
 
 .overskrift1{
@@ -218,7 +219,6 @@ hr{
   padding: 0;
   width: 10%;
   background-color: rgb(48, 49, 52);
-  position: fixed;
   height: 100%;
   overflow: auto;
   font-family: "CenturyGothic", sans-serif;
@@ -266,7 +266,6 @@ hr{
   width: 70px;
   height: 70px;
   background: #E06538;
-  border: 1px solid black;
   border-radius: 10px;
 }
 
@@ -287,6 +286,13 @@ hr{
 .lysgraa{
   width: 70px;
   height: 70px;
+  background: #C1C3C3;
+  border-radius: 10px;
+}
+
+.graa{
+  width: 70px;
+  height: 70px;
   background: #4C4D52;
   border: 1px solid black;
   border-radius: 10px;
@@ -296,7 +302,6 @@ hr{
   width: 70px;
   height: 70px;
   background: #303134;
-  border: 1px solid black;
   border-radius: 10px;
 }
 
