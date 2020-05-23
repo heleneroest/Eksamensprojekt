@@ -9,7 +9,7 @@ function myFunction() {
 
 
 i = 0;
-var bg = ["red", "rgb(48, 49, 52"]; // array, loop igennem 
+var bg = ["red", "rgb(48, 49, 52"]; // array, loop igennem
 function colorChange(which) {
   which.style.backgroundColor = bg[i++ % bg.length];
 }
