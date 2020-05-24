@@ -5,27 +5,48 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-  overflow: hidden;
-  background-color: #000000;
-  padding: 20px 10px;
+.ikon{
+  width: 15%;
+  height: 15%;
+  align-self: center;
 }
 
-.header-right {
-  float: right;
-  padding-right: 25px;
+.header{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
 }
 
-.wrap {
-    width: 50%;
-    margin: auto;
+.menu{
+  display: none;
 }
 
-.icon {
-    width: 40px;
-    height: 6px;
-    background:#EC5D1F;
-    margin: 6px 0;
+.menu ul{
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: rgb(34, 37, 42);
+}
+
+.menu li a{
+  color: white;
+  text-decoration: none;
+  line-height: 200%;
+}
+
+. robnor h1{
+  letter-spacing: 3px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 .sensor h1 {
@@ -76,13 +97,14 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #696969;
+  background-color: #303134;
   padding: 20px;
+  margin-top: 20px;
 }
 
 .container2 {
   border-radius: 5px;
-  background-color: #696969;
+  background-color: #303134;
   padding-left: 90px;
   padding-top: 20px;
   padding-bottom: 20px;
