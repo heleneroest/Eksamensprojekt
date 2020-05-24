@@ -9,7 +9,30 @@
     <link rel="stylesheet" href="Pakketyper.css">
   </head>
   <body style="background-color: #808080">
-     <div class="header">
+     
+      <script>
+      function welcome() { 
+window.open("PakkePlacering.html");
+} 
+      </script>
+      <script>
+function myFunction() {
+  var x, text;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("length").value;
+
+  // If x is Not a Number or less than one or greater than 10
+  if (isNaN(x) || x < 1 || x > 10) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+      
+      <div class="header">
     <img src="">
   <div class="header-right">
    <div class="wrap">
@@ -51,15 +74,22 @@
       
       
 <div class="container">
-  <form action="/action_page.php">
+  <form id="laengde" onsubmit="return checkform(this)">
   <div class="row">
     <div class="col-25">
       <label for="fname">Længde(cm)</label>
     </div>
     <div class="col-75">
-      <input type="text" id="length" name="laengde">
+      <input type="text" id="length" name="laengde" required>
+      <input type="submit">
     </div>
   </div>
+
+      <form id="orderForm" onsubmit="return checkform(this)">
+    <input name="promotioncode" id="promotioncode" type="text" required />
+    <input name="price" id="price" type="text" value="&euro; 15,00" readonly="readonly"/>
+    <input class="submit" type="submit" value="Submit"/>
+</form>
       
   <div class="row">
     <div class="col-25">
@@ -112,7 +142,9 @@
 </form>
           </div>
       <br>
-      <button class="block">Færdig!</button>
+      <div class="block">
+      <a href="PakkePlacering.html">Færdig!</a>
+          </div>
       <br>
       <br>
       <br>
