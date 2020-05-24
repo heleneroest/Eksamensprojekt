@@ -17,74 +17,44 @@
       <img class="icon" onclick="myFunction()" src="../../images/icons/burger-bar.png">
      </header>
       
-
+<div class="sensor">
+  <h1>Sensor margin</h1>
+</div>
       
-<ul id="myUL">
-  <li>Hit the gym</li>
-  <li class="checked">Pay bills</li>
-  <li>Meet George</li>
-  <li>Buy eggs</li>
-  <li>Read a book</li>
-  <li>Organize office</li>
-</ul>
-      <script>
-// Create a "close" button and append it to each list item
-var myNodelist = document.getElementsByTagName("LI");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  myNodelist[i].appendChild(span);
-}
-
-// Click on a close button to hide the current list item
-var close = document.getElementsByClassName("close");
-var i;
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function() {
-    var div = this.parentElement;
-    div.style.display = "none";
-  }
-}
-
-// Add a "checked" symbol when clicking on a list item
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-    ev.target.classList.toggle('checked');
-  }
-}, false);
-
-// Create a new list item when clicking on the "Add" button
-function newElement() {
-  var li = document.createElement("li");
-  var inputValue = document.getElementById("myInput").value;
-  var t = document.createTextNode(inputValue);
-  li.appendChild(t);
-  if (inputValue === '') {
-    alert("You must write something!");
-  } else {
-    document.getElementById("myUL").appendChild(li);
-  }
-  document.getElementById("myInput").value = "";
-
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  li.appendChild(span);
-
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
-      var div = this.parentElement;
-      div.style.display = "none";
-    }
-  }
-}
-</script>
+ <div class="container">
+<form action="/action_page.php">
+  <input type="checkbox" id="calculate1" name="mm" value="mm1">
+  <label for="mm">Udregn i mm</label><br>
+  <input type="checkbox" id="calculate1" name="procent" value="procent1">
+  <label for="%">Udregn i %</label><br>
+</form>
+      </div>     
       
+      <div class="container">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Sensor max <br> Positive Margin</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="laengde" placeholder="0 mm - 1800 mm">
+    </div>
+  </div>
+      </div>
+     
+      <div class="container">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Sensor max <br> Negative Margin</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="laengde" placeholder="0 mm - 1800 mm">
+    </div>
+  </div>
+      </div>
+      
+      <div class="overskrift2">FLERE INDSTILLINGER</div>
+      <br>
+      <br>
      
    <footer class="step">
       <div><a href="../PakkePlacering/PakkePlacering.html"><img class="icon2" src="../../images/icons/venstre-pil.png"></a></div>
