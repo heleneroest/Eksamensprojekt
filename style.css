@@ -322,3 +322,223 @@ hr{
 }
 
 /* HELENE SLUT */
+
+
+/* JOHN START */
+/* VELKOMMEN-SIDEN (START)*/
+.nytemplate {
+  border-radius: 5px;
+  background-color: #303134;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.loadtemplate {
+  border-radius: 5px;
+  background-color: #303134;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.Velkomsttekst h1 {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 50px;
+    color: #EC5D1F;
+    margin-top: 160px;
+}
+
+.templateknap button {
+  background-color:#4C4D52;
+  color: #ffffff;
+  font-size: 23px;
+  font font-family: "TitilliumWeb";
+  text-decoration: none;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  transition-duration: 0.4s;
+  border-radius: 1px;
+  border: 0.1em solid #000000;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+/* VELKOMMEN-SIDEN (SLUT)*/
+/* VÆLG PALLETYPE-SIDEN (START)*/
+.vaelgpalletyperher{
+  padding-top: 10%;
+  display: grid;
+  justify-content: center;
+  grid-gap: 5%;
+  grid-template-columns: 130px 130px;
+  grid-auto-rows: 130px 130px 130px;
+  align-items: stretch;
+}
+
+.individuelpalletype{
+  background-color: rgb(48, 49, 52);
+  padding: 5%;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-family: "TitilliumWeb";
+  letter-spacing: 1px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.titelvaelgpalletype{
+  margin-top: 80px;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10%;
+  color: rgb(224, 98, 53);
+}
+/* VÆLG PALLETYPE-SIDEN (SLUT)*/
+/* DU HAR VALGT-SIDEN (START)*/
+
+.duharvalgt h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: #EC5D1F;
+}
+
+.containerditvalg {
+  border-radius: 5px;
+  background-color: #303134;
+  padding left: 50px;
+  padding-right: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 50px;
+}
+
+.ditvalg{
+  background-color: rgb(48, 49, 52);
+  padding-left: 50px;
+  text-align: center;
+  color: white;
+  font-family: "TitilliumWeb";
+  letter-spacing: 1px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.titelfyldningsprocent h3{
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+.titelfyldningshøjde h3{
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+.titeltilladtudhæng h3{
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+.containerprocentsats {
+  border-radius: 5px;
+  background-color: #303134;
+  padding: 20px;
+  margin: 20px;
+}
+
+.containertilindhold {
+  border-radius: 5px;
+  background-color: #303134;
+  padding: 20px;
+  margin: 20px;
+}
+
+.containertilindhold2 {
+  border-radius: 5px;
+  background-color: #303134;
+  padding-left: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+label {
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.col-250 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-750 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-250, .col-750, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/* DU HAR VALGT-SIDEN (SLUT)*/
+/* PAK PALLEN DU HAR VALGT-SIDEN (START)*/
+
+/* PAK PALLEN DU HAR VALGT-SIDEN (SLUT)*/
+
+/* JOHN SLUT */
