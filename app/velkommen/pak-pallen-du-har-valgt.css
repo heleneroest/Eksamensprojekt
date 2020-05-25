@@ -1,8 +1,4 @@
-/* HELENE */
-html{
-  scroll-behavior: smooth;
-}
-
+/* JOHN START */
 body{
   margin: 0;
   font-family: titilliumWeb;
@@ -11,8 +7,6 @@ body{
   background-color: #4C4D52;
   color: white;
 }
-
-/* palletype_fastlane */
 
 .ikon{
   width: 15%;
@@ -51,45 +45,6 @@ body{
   line-height: 200%;
 }
 
-.palletyper{
-  padding-top: 10%;
-  display: grid;
-  justify-content: center;
-  grid-gap: 5%;
-  grid-template-columns: 110px 110px;
-  grid-auto-rows: 110px 110px 110px;
-  align-items: stretch;
-}
-
-.item{
-  background-color: rgb(48, 49, 52);
-  padding: 5%;
-  margin-top: 15px;
-  text-align: center;
-  color: white;
-  font-family: titilliumWeb;
-  letter-spacing: 1px;
-  font-size: 11px;
-  display: flex;
-  align-items: center;
-  border-radius: 5px;
-}
-
-.overskrift1{
-  text-align: center;
-  font-size: 18px;
-  padding-top: 10%;
-  color: rgb(224, 98, 53);
-}
-
-.overskrift2{
-  margin-top: 20%;
-  text-align: center;
-  font-size: 18px;
-  padding-top: 10%;
-  color: white;
-}
-
 .trin{
   position: fixed;
   bottom: 2%;
@@ -104,73 +59,6 @@ body{
 .ikon2{
   width: 20%;
 }
-
-/* pakketyper-fastlane */
-
-.pakketyper{
-  padding-top: 10%;
-  margin-right: 5%;
-  margin-left: 2%;
-  display: grid;
-  justify-content: center;
-  grid-gap: 15%;
-  grid-template-columns: 1fr 2fr;
-  grid-auto-rows: 110px 110px 110px;
-  align-items: stretch;
-}
-
-.pakketyper > div{
-  margin-top: 15px;
-  color: white;
-  font-family: titilliumWeb;
-  letter-spacing: 1px;
-  font-size: 11px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pakketype-boks{
-  width: 100px;
-  height: 20px;
-  background: #303134;
-  border-radius: 3px;
-}
-
-.form-boks{
-  width: 150px;
-  height: 20px;
-  background: #C3C4C5;
-  border-radius: 3px;
-}
-
-.flexbox-pakketyper{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start !important;
-  justify-content: flex-start !important;
-  row-gap: 8%
-}
-
-.text{
-  text-align: left  !important;
-}
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-/* Pakkehøjde */
-
-.pakkehoejde{
-  padding-top: 10%;
-  margin-right: 5%;
-  margin-left: 2%;
-  display: grid;
-  justify-content: center;
-  grid-gap: 15%;
-  align-items: stretch;
-}
-
 
 /* Skifttyper */
 
@@ -304,4 +192,4 @@ hr{
   border-radius: 10px;
 }
 
-/* HELENE SLUT */
+/* JOHN SLUT */
