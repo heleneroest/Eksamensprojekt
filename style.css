@@ -208,7 +208,7 @@ h1{
   font-size: 20px;
   text-align: center;
 }
-
+/* HELENE SLUT */
 /* STYLEGUIDE */
 
 a{
@@ -277,6 +277,55 @@ hr{
   }
 }
 
+.burgermenu img{
+    height: 60px;
+    width: 60px;
+}
+
+.pil img{
+    height: 50px;
+    width: 60px;
+}
+
+.logo img{
+    height: 50px;
+    width: 60px;
+}
+
+.containercheck {
+  border-radius: 5px;
+  background-color: #303134;
+  padding: 20px;
+  margin-top: 30px;
+  margin-right: 800px;
+}
+
+.col-25f {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75f {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.formular:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.containerformular {
+  border-radius: 5px;
+  background-color: #303134;
+  padding: 20px;
+  margin-top: 30px;
+  margin-right: 600px;
+}
+
 /* STYLEGUIDE (FARVER) */
 .flex-container2{
   display: flex;
@@ -326,7 +375,7 @@ hr{
   border-radius: 10px;
 }
 
-/* HELENE SLUT */
+/* STYLEGUIDE SLUT */
 
 
 /* JOHN START */
@@ -543,6 +592,200 @@ input[type=submit]:hover {
 /* DU HAR VALGT-SIDEN (SLUT)*/
 /* PAK PALLEN DU HAR VALGT-SIDEN (START)*/
 
+.pakpallenduharvalgt h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: #EC5D1F;
+}
+
+.menunavnetilpakning{
+  padding-top: 2%;
+  display: grid;
+  justify-content: center;
+  grid-gap: 5%;
+  grid-template-columns: 100px 100px 100px;
+  grid-auto-rows: 50px 50px 50px;
+  align-items: stretch;
+}
+
+.pakdinpalleher{
+  padding-top: 2%;
+  display: grid;
+  justify-content: center;
+  grid-gap: 5%;
+  grid-template-columns: 100px 100px 100px;
+  grid-auto-rows: 100px 100px 100px;
+  align-items: stretch;
+}
+
+.menupalletilrådighed{
+  background-color: rgb(48, 49, 52);
+  padding: 5%;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-family: "TitilliumWeb";
+  letter-spacing: 1px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+}
+
+.menuønsketantal{
+  background-color: rgb(48, 49, 52);
+  padding: 5%;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-family: "TitilliumWeb";
+  letter-spacing: 1px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+}
+
+.menudraganddrop{
+  background-color: rgb(48, 49, 52);
+  padding: 5%;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-family: "TitilliumWeb";
+  letter-spacing: 1px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+}
+
+.dinpalle{
+  background-color: rgb(48, 49, 52);
+  padding: 5%;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-family: "TitilliumWeb";
+  letter-spacing: 1px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.ønsketantal{
+  background-color: rgb(48, 49, 52);
+  padding: 5%;
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-family: "TitilliumWeb";
+  letter-spacing: 1px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.trækpakketypeherhen{
+  background-color: rgb(48, 49, 52);
+  padding: 5%;
+  margin-top: 15px;
+  text-align: center;
+  color: #007BFF;
+  font-family: "TitilliumWeb";
+  letter-spacing: 1px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.pakketypeduharvalgt h3{
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.bokstilafkrydsning {
+  margin-top: 3px;
+  border-radius: 5px;
+  background-color: #303134;
+  padding: 5px;
+  margin: 15px;
+}
+
+.bokstilafkrydsning2 {
+  margin-top: 3px;
+  border-radius: 5px;
+  background-color: #303134;
+  padding-left: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.containertilantal {
+  border-radius: 5px;
+  background-color: #303134;
+  padding: 10px;
+  margin: 15px;
+}
+
+.containertilantal2 {
+  border-radius: 5px;
+  background-color: #303134;
+  padding-left: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.containernytrækherhen {
+  border-radius: 5px;
+  background-color: #007BFF;
+  opacity: 60%;
+  margin: 0px;
+  padding: 5px;
+}
+
+.træknæstepakkeherhen h3{
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sedinepakker {
+  border-radius: 5px;
+  background-color: #000000;
+  margin: 0px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.tekstsedinepakker h3{
+    font-size: 18px;
+    text-align: center;
+    color: #EC5D1F;
+}
+.containertilpakketypetilsidst {
+  background-color: #303134;
+  opacity: 75%;
+  border-radius: 1px;
+  font-family: 'TitilliumWeb';
+  padding: 10px;
+  margin-top: 5px;
+  margin: 10px;
+
+}
+.pakketypentilsidst {
+  color:white;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'TitilliumWeb';
+}
 /* PAK PALLEN DU HAR VALGT-SIDEN (SLUT)*/
 
 /* JOHN SLUT */
