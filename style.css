@@ -289,6 +289,40 @@ hr{
     width: 60px;
 }
 
+.containercheck {
+  border-radius: 5px;
+  background-color: #303134;
+  padding: 20px;
+  margin-top: 30px;
+  margin-right: 800px;
+}
+
+.col-25f {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75f {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.formular:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.containerformular {
+  border-radius: 5px;
+  background-color: #303134;
+  padding: 20px;
+  margin-top: 30px;
+  margin-right: 600px;
+}
+
 /* STYLEGUIDE (FARVER) */
 .flex-container2{
   display: flex;
