@@ -1,3 +1,4 @@
+// Helene (header)
 function myFunction() {
   var x = document.getElementById("toggleMenu"); // local variable
   if (x.style.display === "block") {
@@ -6,3 +7,4 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+// Helene slut
