@@ -767,6 +767,22 @@ input[type=submit]:hover {
     text-align: center;
     color: #EC5D1F;
 }
+.containertilpakketypetilsidst {
+  background-color: #303134;
+  opacity: 75%;
+  border-radius: 1px;
+  font-family: 'TitilliumWeb';
+  padding: 10px;
+  margin-top: 5px;
+  margin: 10px;
+
+}
+.pakketypentilsidst {
+  color:white;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'TitilliumWeb';
+}
 /* PAK PALLEN DU HAR VALGT-SIDEN (SLUT)*/
 
 /* JOHN SLUT */
