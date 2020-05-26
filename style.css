@@ -279,6 +279,16 @@ hr{
     width: 60px;
 }
 
+.pil img{
+    height: 50px;
+    width: 60px;
+}
+
+.logo img{
+    height: 50px;
+    width: 60px;
+}
+
 /* STYLEGUIDE (FARVER) */
 .flex-container2{
   display: flex;
