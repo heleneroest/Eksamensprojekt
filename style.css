@@ -596,17 +596,17 @@ input[type=submit]:hover {
 }
 
 .menunavnetilpakning{
-  padding-top: 5%;
+  padding-top: 2%;
   display: grid;
   justify-content: center;
   grid-gap: 5%;
   grid-template-columns: 100px 100px 100px;
-  grid-auto-rows: 15px 15px 15px;
+  grid-auto-rows: 50px 50px 50px;
   align-items: stretch;
 }
 
 .pakdinpalleher{
-  padding-top: 5%;
+  padding-top: 2%;
   display: grid;
   justify-content: center;
   grid-gap: 5%;
@@ -623,7 +623,7 @@ input[type=submit]:hover {
   color: white;
   font-family: "TitilliumWeb";
   letter-spacing: 1px;
-  font-size: 10px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   border-radius: 1px;
@@ -637,7 +637,7 @@ input[type=submit]:hover {
   color: white;
   font-family: "TitilliumWeb";
   letter-spacing: 1px;
-  font-size: 10px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   border-radius: 1px;
@@ -651,7 +651,7 @@ input[type=submit]:hover {
   color: white;
   font-family: "TitilliumWeb";
   letter-spacing: 1px;
-  font-size: 10px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   border-radius: 1px;
@@ -699,19 +699,74 @@ input[type=submit]:hover {
   border-radius: 5px;
 }
 
-.containertilindholdet {
-  border-radius: 5px;
-  padding: 20px;
-  margin: 20px;
+.pakketypeduharvalgt h3{
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #ffffff;
 }
 
-.containertilindholdet2 {
+.bokstilafkrydsning {
+  margin-top: 3px;
   border-radius: 5px;
+  background-color: #303134;
+  padding: 5px;
+  margin: 15px;
+}
+
+.bokstilafkrydsning2 {
+  margin-top: 3px;
+  border-radius: 5px;
+  background-color: #303134;
   padding-left: 90px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+.containertilantal {
+  border-radius: 5px;
+  background-color: #303134;
+  padding: 10px;
+  margin: 15px;
+}
+
+.containertilantal2 {
+  border-radius: 5px;
+  background-color: #303134;
+  padding-left: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.containernytrækherhen {
+  border-radius: 5px;
+  background-color: #007BFF;
+  opacity: 60%;
+  margin: 0px;
+  padding: 5px;
+}
+
+.træknæstepakkeherhen h3{
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sedinepakker {
+  border-radius: 5px;
+  background-color: #000000;
+  margin: 0px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.tekstsedinepakker h3{
+    font-size: 18px;
+    text-align: center;
+    color: #EC5D1F;
+}
 /* PAK PALLEN DU HAR VALGT-SIDEN (SLUT)*/
 
 /* JOHN SLUT */
