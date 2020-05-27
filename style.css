@@ -145,8 +145,8 @@ body{
   letter-spacing: 1px;
   font-size: 11px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+/*  align-items: center;
+  justify-content: center;*/
 }
 
 .pakketype-boks{
@@ -193,6 +193,10 @@ body{
   align-items: stretch;
 }
 
+.lhb-flexbox{
+  display: flex;
+  flex-direction: column;
+}
 
 /* Skifttyper */
 
