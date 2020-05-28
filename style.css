@@ -103,6 +103,11 @@ body{
   color: white;
 }
 
+.overskrift3{
+  font-size: 15px !important;
+  color: rgb(224, 98, 53) !important;
+}
+
 .trin{
   padding-top: 2%;
   padding-bottom: 2%;
@@ -114,14 +119,19 @@ body{
   position: fixed;
   bottom: 0;
   background: black;
+  max-height:70px;
 }
-
-
 
 .ikon2{
-  width: 20%;
+  width: 10%;
 }
 
+@media only screen and (max-width: 1000px) {
+ .ikon2{
+   width: 20% !important;
+   height: 20% !important;
+ }
+}
 
 
 /* pakketyper-fastlane */
@@ -132,28 +142,31 @@ body{
   margin-left: 2%;
   display: grid;
   justify-content: center;
-  grid-gap: 15%;
+  grid-gap: 5%;
   grid-template-columns: 1fr 2fr;
   grid-auto-rows: 110px 110px 110px;
   align-items: stretch;
+  grid-template-rows: auto auto auto auto;
 }
 
 .pakketyper > div{
-  margin-top: 15px;
+  margin-top: 0;
+  padding-top: 0;
   color: white;
   font-family: titilliumWeb;
   letter-spacing: 1px;
   font-size: 11px;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .pakketype-boks{
   width: 100px;
-  height: 20px;
+  height: 30px;
   background: #303134;
   border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px !important;
 }
 
 .form-boks{
@@ -174,11 +187,6 @@ body{
 .text{
   text-align: left  !important;
 }
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-/* Pakkehøjde */
 
 .pakkehoejde{
   padding-top: 10%;
@@ -190,6 +198,39 @@ body{
   align-items: stretch;
 }
 
+.lbh-flexbox{
+  display: flex;
+  flex-direction: column;
+}
+
+.lbh-flexbox label{
+  padding-bottom: 1%;
+  margin: 0;
+}
+
+.xxx{
+  padding-top: 0px;
+}
+
+#panel1{
+  visibility: hidden;
+}
+
+#panel2{
+  visibility: hidden;
+}
+
+#panel3{
+  visibility: hidden;
+}
+
+#panel4{
+  visibility: hidden;
+}
+
+#panel5{
+  visibility: hidden;
+}
 
 /* Skifttyper */
 
@@ -402,9 +443,8 @@ hr{
 .Velkomsttekst h1 {
     padding-top: 35px;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     color: #EC5D1F;
-
 }
 
 .templateknap button {

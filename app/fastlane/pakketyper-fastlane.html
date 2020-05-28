@@ -2,7 +2,7 @@
 <html lang="da">
   <head>
     <meta charset="utf-8">
-    <title>Valg af palletype</title>
+    <title>Valg af pakketype</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../../style.css" rel="stylesheet" type="text/css">
   </head>
@@ -24,50 +24,57 @@
     <div class="overskrift1">VÆLG PAKKETYPER</div>
     <div class="pakketyper">
       <div class="pakketype-boks">PAKKETYPE 1</div>
-      <div class="flexbox-pakketyper">
-        <div>
-          <div class="text">LÆNGDE (cm)</div>
-          <div class="form-boks"></div>
-        </div>
-        <div>
-          <div class="text">HØJDE (cm)</div>
-          <div class="form-boks"></div>
-        </div>
-        <div>
-          <div class="text">BREDDE (cm)</div>
-          <div class="form-boks"></div>
-        </div>
+      <div class="lbh-flexbox">
+        <form>
+            <label class="xxx">LÆNGDE (cm)</label>
+            <input type="text">
+        </form>
+        <form>
+            <label>BREDDE (cm)</label>
+            <input type="text">
+        </form>
+        <form>
+            <label>HØJDE(cm)</label>
+            <input type="text">
+        </form>
       </div>
-      <div class="pakketype-boks">PAKKETYPE 2</div>
-      <div class="flexbox-pakketyper">
-        <div>
-          <div class="text">LÆNGDE (cm)</div>
-          <div class="form-boks"></div>
-        </div>
-        <div>
-          <div class="text">HØJDE (cm)</div>
-          <div class="form-boks"></div>
-        </div>
-        <div>
-          <div class="text">BREDDE (cm)</div>
-          <div class="form-boks"></div>
-        </div>
+      <div></div>
+      <div class="overskrift3" onclick="myFunction2()">+ TILFØJ PAKKETYPE</div>
+      <div class="pakketype-boks" id="panel1">PAKKETYPE 2</div>
+      <div class="lbh-flexbox" id="panel2">
+        <form>
+            <label class="xxx">LÆNGDE (cm)</label>
+            <input type="text">
+        </form>
+        <form>
+            <label>BREDDE (cm)</label>
+            <input type="text">
+        </form>
+        <form>
+            <label>HØJDE(cm)</label>
+            <input type="text">
+        </form>
       </div>
-      <div class="pakketype-boks">PAKKETYPE 2</div>
-      <div class="flexbox-pakketyper">
-        <div>
-          <div class="text">LÆNGDE (cm)</div>
-          <div class="form-boks"></div>
-        </div>
-        <div>
-          <div class="text">HØJDE (cm)</div>
-          <div class="form-boks"></div>
-        </div>
-        <div>
-          <div class="text">BREDDE (cm)</div>
-          <div class="form-boks"></div>
-        </div>
+      <div></div>
+      <div class="overskrift3" onclick="myFunction3()" id="panel3">+ TILFØJ PAKKETYPE</div>
+      <div class="pakketype-boks" id="panel4">PAKKETYPE 3</div>
+      <div class="lbh-flexbox" id="panel5">
+        <form>
+            <label class="xxx">LÆNGDE (cm)</label>
+            <input type="text">
+        </form>
+        <form>
+            <label>BREDDE (cm)</label>
+            <input type="text">
+        </form>
+        <form>
+            <label>HØJDE(cm)</label>
+            <input type="text">
+        </form>
       </div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
     <footer class="trin">
         <div><a href="palletype-fastlane.html"><img class="ikon2" src="../../images/icons/venstre-pil.png"></a></div>
