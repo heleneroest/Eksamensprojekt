@@ -1,7 +1,7 @@
 // til header
 function myFunction(){
   var x = document.getElementById("toggleMenu");
-  if (x.style.display == "block") {
+  if (x.style.display == "block"){
     x.style.display = "none";
   } else {
     x.style.display = "block";
@@ -12,7 +12,8 @@ function myFunction(){
 var i = 0;
 function colorChange(which){
   var bg = ["rgba(255, 0, 0, 0.6)", "rgb(48, 49, 52"];
-  which.style.backgroundColor = bg[i++ % bg.length];
+  which.style.backgroundColor = bg[i % 2];
+  i++;
 }
 
 // pakketyper
