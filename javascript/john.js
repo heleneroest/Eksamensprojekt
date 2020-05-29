@@ -37,17 +37,6 @@ function vispalleantal() {
   }
 }
 
-function vispalleantal() {
-  var pakkeshow = document.getElementById("toggleAntal"); // local variable
-  if (pakkeshow.style.display === "block") {
-    pakkeshow.style.display = "none";
-  } else {
-    pakkeshow.style.display = "block";
-  }
-}
-
-
-
     $('#checkedmixpalletering').change(function() {
         $('#shownypakke').show();
     });
