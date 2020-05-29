@@ -16,3 +16,76 @@ function colorChange(which){
 }
 
 // Helene slut
+
+
+// John Start
+function vispakker() {
+  var pakkeshow = document.getElementById("togglejohn"); // local variable
+  if (pakkeshow.style.display === "block") {
+    pakkeshow.style.display = "none";
+  } else {
+    pakkeshow.style.display = "block";
+  }
+}
+
+function vispalleantal() {
+  var pakkeshow = document.getElementById("toggleantal"); // local variable
+  if (pakkeshow.style.display === "block") {
+    pakkeshow.style.display = "none";
+  } else {
+    pakkeshow.style.display = "block";
+  }
+}
+
+    $('#checkedmixpalletering').change(function() {
+        $('#shownypakke').show();
+    });
+
+    // Define regular expression - sikkerhed og fejl(error) hvis værdi er ikke tal.
+       var regex = /^\d*[.]?\d*$/;
+
+       $("#myInput1").on("input", function(){
+           // Get input value
+           var inputVal = $(this).val();
+
+           // Test input value against regular expression
+           if(regex.test(inputVal)) {
+               $(this).removeClass("error").addClass("success");
+           } else{
+               $(this).removeClass("success").addClass("error");
+           }
+       });
+
+       // Define regular expression - sikkerhed og fejl(error) hvis værdi er ikke tal.
+          var regex = /^\d*[.]?\d*$/;
+
+          $("#myInput2").on("input", function(){
+              // Get input value
+              var inputVal = $(this).val();
+
+              // Test input value against regular expression
+              if(regex.test(inputVal)) {
+                  $(this).removeClass("error").addClass("success");
+              } else{
+                  $(this).removeClass("success").addClass("error");
+              }
+          });
+
+          // Define regular expression - sikkerhed og fejl(error) hvis værdi er ikke tal.
+             var regex = /^\d*[.]?\d*$/;
+
+             $("#myInput3").on("input", function(){
+                 // Get input value
+                 var inputVal = $(this).val();
+
+                 // Test input value against regular expression
+                 if(regex.test(inputVal)) {
+                     $(this).removeClass("error").addClass("success");
+                 } else{
+                     $(this).removeClass("success").addClass("error");
+                 }
+             });
+
+
+
+// John Slut
