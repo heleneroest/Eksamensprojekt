@@ -297,6 +297,7 @@ hr{
   overflow: auto;
   font-family: "CenturyGothic", sans-serif;
   min-width: 180px;
+  position: fixed;
 }
 
 .navbar li a{
