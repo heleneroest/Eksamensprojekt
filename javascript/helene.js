@@ -10,9 +10,9 @@ function myFunction(){
 
 // palletype
 var i = 0;
-function colorChange(which){
-  var bg = ["rgba(255, 0, 0, 0.6)", "rgb(48, 49, 52"];
-  which.style.backgroundColor = bg[i % 2];
+function farve(which){
+  var bf = ["rgba(255, 0, 0, 0.6)", "rgb(48, 49, 52"];
+  which.style.backgroundColor = bf[i % 2];
   i++;
 }
 
@@ -34,11 +34,11 @@ function myFunction3(){
 // pakkehøjde
 function myFunctionx(){
   var x, text;
-  x = document.getElementById("numb").value;
+  x = document.getElementById("tal").value;
   if (isNaN(x) || x < 0){
     text = "Indsæt et tal over 0";
   }else{
     window.location.href='../index.html';
   }
-  document.getElementById("demo").innerHTML = text;
+  document.getElementById("besked").innerHTML = text;
 }
