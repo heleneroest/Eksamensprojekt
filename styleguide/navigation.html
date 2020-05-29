@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8">
+    <title>Styleguide til Robot Nordic-brugergrænseflade</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <h1><a href="index.html">ROBOT NORDIC</a></h1>
+      <hr>
+      <div class="flex-container">
+        <div class="navbar">
+          <ul>
+              <li><a href="index.html">Forside</a></li>
+              <li><a href="farver.html">Farver</a></li>
+              <li><a href="knapper.html">Knapper</a></li>
+              <li><a href="formularer.html">Formularer</a></li>
+              <li><a href="Skrifter.html">Skrifter</a></li>
+              <li><a href="ikoner.html">Ikoner</a></li>
+              <li><a href="navigation.html" class="active">Navigation</a></li>
+              <li><a href="felter.html">Felter</a></li>
+          </ul>
+        </div>
+        <div class="content">
+          <h1>Navigation</h1>
+          <div class="flex-container2">
+            <header class="header">
+              <img class="ikon" src="../../images/icons/logo.png" alt="">
+              <div>
+                <h1 onclick="document.location = '../index.html'">ROBOT NORDIC</h1>
+              </div>
+                <img class="ikon" onclick="myFunction()" src="../images/icons/burger-bar.png" alt="">
+            </header>
+            <div class="menu" id="toggleMenu">
+              <ul>
+                  <li><a href="../index.html">FORSIDE</a></li>
+                  <li><a href="templates.html">TEMPLATES</a></li>
+                  <li><a href="kontakt.html">KONTAKT</a></li>
+              </ul>
+            </div>
+            <div><br>Header, bruges på alle sider.<br><br>
+                &lt;class="header"&gt; <br>
+                &lt;img class="ikon" src="../../images/icons/logo.png" alt="">&gt;<br>
+                &lt;div&gt;<br>
+                  &lt;h1 onclick="document.location = '../index.html'">ROBOT NORDIC&gt;  &lt;/h1&gt; <br>
+                &lt;/div&gt;<br>
+                  &lt;img class="ikon" onclick="myFunction()" src="../../images/icons/burger-bar.png" alt=""&gt;<br>
+              &lt;/header&gt;<br>
+              &lt;div&gt;  class="menu" id="toggleMenu"> <br>
+                  &lt;ul&gt; <br>
+                      &lt;li&gt; &lt;a&gt;  href="../index.html">FORSIDE&lt;/a&gt;&lt;/ul&gt; <br>
+                      &lt;li&gt; &lt;a&gt;  href="templates.html">TEMPLATES&lt;/a&gt;&lt;/ul&gt; <br>
+                      &lt;li&gt; &lt;a&gt;  href="kontakt.html">KONTAKT&lt;/a&gt;&lt;/ul&gt; <br>
+                  &lt;/ul&gt; <br>
+                 &lt;/div&gt;</div>
+
+          </div>
+        </div>
+        </div>
+      <script src="../javascript/helene.js"></script>
+  </body>
+</html>
