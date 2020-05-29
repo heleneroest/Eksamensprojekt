@@ -19,14 +19,6 @@ function colorChange(which){
 
 
 // John Start
-function vispakker() {
-  var pakkeshow = document.getElementById("togglejohn"); // local variable
-  if (pakkeshow.style.display === "block") {
-    pakkeshow.style.display = "none";
-  } else {
-    pakkeshow.style.display = "block";
-  }
-}
 
 function vispalleantal() {
   var pakkeshow = document.getElementById("toggleantal"); // local variable
@@ -37,12 +29,36 @@ function vispalleantal() {
   }
 }
 
-    $('#checkedmixpalletering').change(function() {
-        $('#shownypakke').show();
-    });
+
+
+
+
+
+
+
+
+$('#checkedmixpalletering').change(function() {
+    $('#shownypakke').show();
+});
+
+
+
+
+function vispakker() {
+  var pakkeshow = document.getElementById("togglejohn"); // local variable
+  if (pakkeshow.style.display === "block") {
+    pakkeshow.style.display = "none";
+  } else {
+    pakkeshow.style.display = "block";
+  }
+}
+
+
 
     // Define regular expression - sikkerhed og fejl(error) hvis værdi er ikke tal.
        var regex = /^\d*[.]?\d*$/;
+
+
 
        $("#myInput1").on("input", function(){
            // Get input value
@@ -55,6 +71,15 @@ function vispalleantal() {
                $(this).removeClass("success").addClass("error");
            }
        });
+
+
+
+
+
+
+
+
+
 
        // Define regular expression - sikkerhed og fejl(error) hvis værdi er ikke tal.
           var regex = /^\d*[.]?\d*$/;
@@ -70,6 +95,14 @@ function vispalleantal() {
                   $(this).removeClass("success").addClass("error");
               }
           });
+
+
+
+
+
+
+
+
 
           // Define regular expression - sikkerhed og fejl(error) hvis værdi er ikke tal.
              var regex = /^\d*[.]?\d*$/;
